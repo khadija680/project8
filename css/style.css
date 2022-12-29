@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #eee;
+    font-family: 'Lobster', cursive;
+}
+ul{
+    background-color:rgb(84, 20, 144);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+ul li:hover{
+    background-color:fuchsia;
+}
+ul li a{
+    color: azure;
+    text-decoration: none;
+}
+.main-img{
+    height: 400px;
+    background-image: url(../images/article-1267025-092246DD000005DC-214_964x277.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}   
+.our-features{
+    padding-top: 50px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.our-features h1{
+    color:darkmagenta;
+}
+    
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.Features{
+    display: flex;
+    margin-top: 25px;
+}
+.Features .Feature {
+    text-align: center;
+    background-color: white;
+    width: 30%;
+    margin: auto;
+    padding: 15px;
+    height: 250px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.Features .Feature:hover {
+    box-shadow: 3px 3px 10px fuchsia;
+    transform: translateX(3px);
+    background-color: orchid;
+
+}
+.Features .Feature i{
+    padding: 15px;
+    font-size: 30px;
+    background-color: fuchsia;
+    color: white;
+    border-radius:50%;
+}
+.Features .Feature h3 {
+
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/*start content style*/
+
+.content {
+    padding: 50px;
+    /*width: 80%;*/
+    margin-bottom: 20px;
+    text-align:center;
+    background-color: white;
+}
+
+.content h1 {
+    color: purple;
+ }
+.content p {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+/* start contact-us*/
+
+.contact-us {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.contact-form {
+    width: 700px;
+    background-color: white;
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.input-form {
+    margin-bottom: 20px;
+}
+.input-form input {
+    width: 400px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+textarea {
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.btn-send {
+    background-color: fuchsia;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
